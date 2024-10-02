@@ -1,4 +1,4 @@
-```markdown
+
 # Detox Project - Gilead Hackathon 2023
 
 ## Overview

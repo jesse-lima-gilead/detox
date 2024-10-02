@@ -18,7 +18,7 @@ The Detox project is designed to run simulations for data quality checks using P
      ```
    - Then, execute the script with:
      ```bash
-     python -m your_package.main
+     python -m main
      ```
 
 ### Main Functions

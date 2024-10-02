@@ -14,7 +14,7 @@ The Detox project is designed to run simulations for data quality checks using P
    - If you choose to run the simulation using the `main.py` script, you must export the `SPARK_VERSION` environment variable in your terminal before executing the script. 
    - To do this, run the following command in your terminal:
      ```bash
-     export SPARK_VERSION=3.3  # Change this to your Spark version if needed
+     export SPARK_VERSION=3.5  # Change this to your Spark version if needed
      ```
    - Then, execute the script with:
      ```bash
@@ -30,8 +30,8 @@ The main functions in this project are set up to run 1000 random examples, simul
 The project is organized as follows:
 
 ```
-your_project/
-├── your_package/
+/
+├── detox/
 │   ├── __init__.py
 │   ├── data_processing.py      # Helper code to generate randomization for the proof of concept
 │   ├── data_quality.py         # Code related to PyDeequ data quality checks and helpers

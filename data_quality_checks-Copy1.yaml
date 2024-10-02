@@ -1,0 +1,33 @@
+checks:
+  - name: hasSize
+    parameters:
+      value: 300
+      hint: "Dataframe should have 300 rows"
+  - name: isComplete
+    parameters:
+      column: RandomValues
+      hint: "Name should not be null"
+  - name: hasMin
+    parameters:
+      column: Scores
+      value: 0
+      hint: "Score should be at least 0"
+  - name: hasMax
+    parameters:
+      column: Scores
+      value: 10
+      hint: "Score should be at most 10"
+  - name: isNonNegative
+    parameters:
+      column: Scores
+      hint: "Socores column should be non-negative"
+  - name: hasMean
+    parameters:
+      column: NormallyDistributed
+      value: 29
+      hint: "Columns values should be Normally Distributed with mean 0.0"
+  - name: hasStandardDeviation
+    parameters:
+      column: NormallyDistributed
+      value: 1.0
+      hint: "Column values should have standard deviation of 1.0"
